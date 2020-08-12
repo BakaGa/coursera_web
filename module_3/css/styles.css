@@ -1,0 +1,74 @@
+body{
+	font-size: 16;
+}
+
+/*HEADER*/
+header{
+	background-color: #bbb;
+}
+
+.navbar-brand {
+  padding-top: 14px;
+}
+
+.navbar-brand h1 {
+	color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#coll-nav {
+  margin-top: 10px;
+  padding: 0;
+/*  background-color: white;*/
+}
+
+#nav-list{
+	margin: 0;
+	background-color: white;
+}
+
+#nav-list a{
+	text-align: center;
+}
+
+#nav-list a:hover{
+	color: black;
+}
+
+#nav-list hr{
+	width: 80%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+/*END HEADER*/
+
+/*Main content*/
+ .title{
+  color: black;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: .75;
+ }
+
+ .single-item{
+ 	background-color: #bbb;
+ 	margin: 0 auto 15px; }
+
+ .single-item h1{
+ 	font-size: 1.4em;
+ 	padding-top: 10px;
+ }
+
+ .single-item div{
+ 	padding: 0 5px;
+ }

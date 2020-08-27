@@ -1,0 +1,11 @@
+<div class="alert alert-danger" ng-if="narrow.foundItems.length === 0">
+    Nothing found!
+</div>
+<table class="table table-bordered table-striped">
+    <tr ng-repeat="item in narrow.foundItems">
+        <th>{{item.name}}</th>
+        <th>{{item.short_name}}</th>
+        <th>{{item.description}}</th>
+        <th><button ng-click="narrow.onRemove({index: $index});" class="btn btn-default btn-xs">Don't want this one!</button></th>
+    </tr>
+</table>
